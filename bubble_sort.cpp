@@ -18,4 +18,16 @@ public:
     }
 };
 int main(){
+    Solution s;
+
+    vector<int> nums = {5, 3, 8, 1, 2};
+
+    vector<int> result = s.sortArray(nums);
+
+    cout << "Sorted array: ";
+    for (int x : result) {
+        cout << x << " ";
+    }
+
+    return 0;
     }
